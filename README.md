@@ -56,7 +56,7 @@ Settings=
 DebugMode=
 ```
 
-* 🔹 **Settings**: a comma-separated list (,) containing the names of sections with configurations.
+* 🔹 **Settings**: a comma-separated list (,) containing the names of sections with configurations. Configurations are evaluated in provided order, so if you want to enable mods for selected profile, put profile configurations first.
 * 🔹 **DebugMode**: True/False, used to enable debug mode, that will display additional information in the **ProfileAssistant.log** file.
 
 Example:
